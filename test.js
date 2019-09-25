@@ -13,7 +13,7 @@ document.write('<p>Your size is,' + shoesSize + '</p>');
 var wantsToOrder = prompt('Do you wanna order new kicks?');
 
 if (wantsToOrder === 'yes') {
-    document.write("here");
+
     document.write('<p>We re so happy you choosed us. </p>');
 
     var shoesStyle = prompt('What style of shoes you prefer?')
