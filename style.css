@@ -39,8 +39,8 @@ main {
 }
 
 img {
-    width: 400px;
-    height: 300px;
+    width: 500px;
+    height: 400px;
 }
 
 .shoes1 {
@@ -48,11 +48,11 @@ img {
 }
 
 .shoes2 {
-    margin-left: 100px;
+    margin-left: 300px;
 }
 
 .shoes3 {
-    margin-left: 400px;
+    margin-left: 600px;
 }
 
 footer {

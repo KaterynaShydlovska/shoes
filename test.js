@@ -2,19 +2,21 @@ var username = prompt('Welcome! What is your name?');
 
 console.log('Hi' + username + '!');
 
+document.write('<h1>Welcome,' + username + '!' + '</h1>');
+
 console.log('<p>Hi,' + username + '</p>');
 
 var shoesSize = prompt(' What is your shoes size?');
 
 console.log(shoesSize);
 
-document.write('<p>Your size is,' + shoesSize + '</p>');
+document.write('<p>Your size is ' + shoesSize + '</p>');
 
 var wantsToOrder = prompt('Do you wanna order new kicks?');
 
 if (wantsToOrder === 'yes') {
 
-    document.write('<p>We re so happy you choosed us. </p>');
+    document.write('<p>We are so happy that you choosed us. </p>');
 
     var shoesStyle = prompt('What style of shoes you prefer?')
 
